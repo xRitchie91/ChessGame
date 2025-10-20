@@ -29,3 +29,54 @@ div * {
     transition: .85s linear;
 }
 
+.turnhighlight {
+    background: #5cb85c !important;
+    color: #fff
+}
+
+#game {
+    max-width: 504px;
+    max-height: 504px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.cellprefix {
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    margin: 3px;
+    padding: 15px 0 0 20px;
+}
+
+.gamecell {
+    border: 1px solid #000;
+    width: 100%;
+    height: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    margin: 3px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px;
+    font-size: 30pt;
+    padding: 0 0 0 6px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.gamecell:hover {
+    color: #fff;
+    background: rgba(37, 88, 228, 0.712);
+    z-index: 2;
+    transform: translate(10px, -10px);
+    animation: neonBlueText 1.5s ease-in-out infinite alternate;
+}
+
+.grey {
+    background: rgba(128, 128, 128, 0.801);
+}
