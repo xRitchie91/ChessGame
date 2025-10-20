@@ -1,0 +1,31 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#turn {
+    max-width: 451px;
+    max-height: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid rgb (0, 0, 0);
+    border-style: insert;
+    text-align: center;
+    padding: 5px 0 0 0;
+    background: #fff;
+    transition: .85s linear;
+}
+
